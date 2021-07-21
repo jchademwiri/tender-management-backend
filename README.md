@@ -2,7 +2,7 @@
 
 ## Get Started
 
-    ```
+    ```bash
     npm i
     npm i nodemon
     npm i express
