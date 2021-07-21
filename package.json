@@ -1,0 +1,24 @@
+{
+	"name": "tmt-backend",
+	"version": "1.0.0",
+	"description": "Tender management system backend with node and mongo db",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index",
+		"dev": "nodemon"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jchademwiri/tmt-backend.git"
+	},
+	"author": "Jacob Chademwiri",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/jchademwiri/tmt-backend/issues"
+	},
+	"homepage": "https://github.com/jchademwiri/tmt-backend#readme",
+	"dependencies": {
+		"express": "^4.17.1",
+		"nodemon": "^2.0.12"
+	}
+}
