@@ -2,7 +2,7 @@
 
 ## Get Started
 
-    ```bash
+    ```
     npm i
     npm i nodemon
     npm i express
@@ -10,5 +10,4 @@
 
 ## Download Insomnia REST
 
-    [Insomnia] REST API Tester
-    (https://insomnia.rest/)
+    [Insomnia] (https://insomnia.rest/) REST API Tester
