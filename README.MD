@@ -6,8 +6,8 @@
     npm i
     npm i nodemon
     npm i express
-        ````
+    ```
 
 ## Download Insomnia REST
 
-    [Insomnia] (https://insomnia.rest/) REST API Tester
+    [Insomnia](https://insomnia.rest/) REST API Tester
