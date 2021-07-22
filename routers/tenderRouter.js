@@ -29,8 +29,20 @@ router.post('/', async (req, res) => {
 		console.log(existingTender);
 		if (existingTender)
 			return res.status(400).json({
-				errorMessage: 'An Tender with this Tebder Number already exists',
+				errorMessage: 'A Tender with this Tender Number already exists',
 			});
+
+		// Save to database new user account
+
+		const newTender = new Tender({
+			tender_number,
+			tender_description,
+			tender_employer,
+			tender_meating_date,
+			tender_closing_date,
+			tender_contact_details,
+		});
+		const savedTender = await newTender.save();
 	} catch (err) {
 		console.error(err);
 		res.status(500).send();

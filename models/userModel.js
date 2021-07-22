@@ -14,7 +14,7 @@ const userSchema = new mongoose.Schema({
 			'Please provide a valid email',
 		],
 	},
-	password: {
+	passwordHash: {
 		type: String,
 		required: [true, 'Please add a password'],
 		minlength: 6,

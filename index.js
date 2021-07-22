@@ -1,5 +1,8 @@
 const express = require('express');
 const mongoose = require('mongoose');
+const cors = require('cors');
+
+// app.use(cors());
 
 const dotenv = require('dotenv');
 dotenv.config();
@@ -17,6 +20,7 @@ mongoose.connect(
 	{
 		useNewUrlParser: true,
 		useUnifiedTopology: true,
+		useCreateIndex: true
 	},
 	(err) => {
 		if (err) return console.error(err);
