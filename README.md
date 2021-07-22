@@ -5,6 +5,8 @@
     npm i
     npm i nodemon
     npm i express
+    npm i mongoose
+    npm i dotenv
 
 ## Download Insomnia REST API Tester
 
