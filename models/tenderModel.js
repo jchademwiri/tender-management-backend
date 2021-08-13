@@ -17,13 +17,12 @@ const tenderSchema = new mongoose.Schema({
 	tender_meeting_date: {
 		// type: String,
 		type: Date,
-		default: Date.now(),
 	},
 	tender_closing_date: {
 		// type: String,
 		// required: true,
 		type: Date,
-		default: Date.now(),
+
 		required: true,
 	},
 	tender_contact_details: {
