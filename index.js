@@ -20,6 +20,7 @@ app.use(
 			'http://localhost:3000',
 			'https://tmt-frontend.vercel.app',
 			'https://mern-auth-template-tutorial.netlify.app',
+			'https://tmtfront.netlify.app',
 		],
 		credentials: true,
 	})

@@ -63,8 +63,8 @@ router.post('/', auth, async (req, res) => {
 		res
 			.cookie('token', token, {
 				httpOnly: true,
-				// secure: true,
-				// sameSite: "none",
+				secure: true,
+				sameSite: "none",
 			})
 			.send();
 	} catch (err) {
@@ -123,8 +123,8 @@ router.post('/login', async (req, res) => {
 		res
 			.cookie('token', token, {
 				httpOnly: true,
-				// secure: true,
-				// sameSite: "none",
+				secure: true,
+				sameSite: "none",
 			})
 			.send();
 	} catch (err) {
@@ -138,8 +138,8 @@ router.get('/logout', (req, res) => {
 		.cookie('token', '', {
 			httpOnly: true,
 			expires: new Date(0),
-			// secure: true,
-			// sameSite: "none",
+			secure: true,
+			sameSite: "none",
 		})
 		.send();
 });
