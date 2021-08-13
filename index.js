@@ -18,6 +18,7 @@ app.use(
 	cors({
 		origin: [
 			'http://localhost:3000',
+			'https://tmt-frontend.vercel.app/',
 			'https://mern-auth-template-tutorial.netlify.app',
 		],
 		credentials: true,
