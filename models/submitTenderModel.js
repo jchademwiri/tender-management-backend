@@ -18,20 +18,14 @@ const tenderSchema = new mongoose.Schema({
 		type: String,
 		required: true,
 	},
-	tender_meeting_date: {
-		// type: String,
-		type: Date,
-	},
+
 	tender_closing_date: {
 		type: Date,
-		required: true,
-	},
-	tender_contact_details: {
-		type: String,
+
 		required: true,
 	},
 });
 
-const Tender = mongoose.model('Tender', tenderSchema);
+const Tender = mongoose.model('Tender', submitTenderSchema);
 
 module.exports = Tender;
